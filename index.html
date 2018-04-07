@@ -65,6 +65,19 @@
   <a  name="services"></a>
   <div class="content-section-a">
 
+    <!-- row template:
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-sm-6">
+          LEFT COL
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          RIGHT COL
+        </div>
+      </div>
+    </div>
+    -->
+
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-sm-6">
@@ -80,7 +93,7 @@
           </h2>
           <p>
             <img src="https://circleci.com/gh/depop/popget.svg?style=shield&circle-token=66ab09119c495365d662fe170e5efcc4467e3b37" title="Build Status">
-            <a href="https://pypi.python.org/depop/popget">
+            <a href="https://pypi.org/project/popget">
               <img src="https://badge.fury.io/py/popget.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
@@ -98,6 +111,37 @@
           <div class="clearfix"></div>
           <h5>
             (for <a href="http://depop.com" target="_blank">Depop</a>)
+            <code>github.com/depop/python-automock</code>
+          </h5>
+          <h2 class="section-heading">
+            <a href="https://github.com/depop/python-automock">
+              automock
+            </a>
+          </h2>
+          <p>
+            <img src="https://circleci.com/gh/depop/python-automock.svg?style=shield&circle-token=cbe5583fec309912d76bfc8b0321f6cfa23b7f6d" title="Build Status">
+            <a href="https://pypi.org/project/automock">
+              <img src="https://badge.fury.io/py/automock.svg" title="Latest PyPI version"></a>
+          </p>
+          <p class="lead">
+            Say you have API clients for various microservices which are used in many places throughout your project. These calls need to be mocked in unit tests, so you're going to end up with a big 'stack' of patch decorators on many tests.
+          </p>
+          <p class="lead">
+            Enter <code>automock</code> - basically we want some functions to be flexibly 'mocked by default' when running tests.
+          </p>
+          <p class="lead">
+            Tested against Python 2.7 &amp; 3.6, source is fully type-hinted and statically checked by <a href="http://mypy-lang.org/" target="_blank">mypy</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-sm-6">
+          <div class="clearfix"></div>
+          <h5>
+            (for <a href="http://depop.com" target="_blank">Depop</a>)
             <code>github.com/depop/celery-message-consumer</code>
           </h5>
           <h2 class="section-heading">
@@ -107,7 +151,7 @@
           </h2>
           <p>
             <img src="https://circleci.com/gh/depop/celery-message-consumer.svg?style=shield&circle-token=a9ea2909c5cbc4cb32a87f50444ca79b99e3b09c" title="Build Status">
-            <a href="https://pypi.python.org/depop/celery-message-consumer">
+            <a href="https://pypi.org/project/celery-message-consumer">
               <img src="https://badge.fury.io/py/celery-message-consumer.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
@@ -118,6 +162,36 @@
           </p>
           <p class="lead">
             Tested against Python 2.7 &amp; 3.6, source is fully type-hinted and statically checked by <a href="http://mypy-lang.org/" target="_blank">mypy</a>.
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <div class="clearfix"></div>
+          <h5>
+            (for <a href="http://depop.com" target="_blank">Depop</a>)
+            <code>github.com/depop/python-flexisettings</code>
+          </h5>
+          <h2 class="section-heading">
+            <a href="https://github.com/depop/python-flexisettings">
+              flexisettings
+            </a>
+          </h2>
+          <p>
+            <img src="https://circleci.com/gh/depop/python-flexisettings.svg?style=shield&circle-token=ae7b355ec3b18c69d3370898a69932091c43d152" title="Build Status">
+            <a href="https://pypi.org/project/python-flexisettings">
+              <img src="https://badge.fury.io/py/flexisettings.svg" title="Latest PyPI version"></a>
+          </p>
+          <p class="lead">
+            Partly inspired by Django's <code>from django.conf import settings</code> settings object.
+          </p>
+          <p class="lead">
+            The goal is to allow shared libraries to be configured by a settings file <em>in the project which imports them</em> (like how Django libraries can expect the Django <code>settings</code> object to exist).
+          </p>
+          <p class="lead">
+            Tested against Python 2.7 &amp; 3.6, source is fully type-hinted and statically checked by <a href="http://mypy-lang.org/" target="_blank">mypy</a>.
+          </p>
+          <p class="lead">
+            (used by <a href="https://github.com/depop/popget">popget</a>, <a href="https://github.com/depop/python-automock">automock</a> and <a href="https://github.com/depop/celery-message-consumer">celery-message-consumer</a>)
           </p>
         </div>
       </div>
@@ -137,36 +211,6 @@
           <div class="clearfix"></div>
           <h5>
             (for <a href="http://depop.com" target="_blank">Depop</a>)
-            <code>github.com/depop/python-flexisettings</code>
-          </h5>
-          <h2 class="section-heading">
-            <a href="https://github.com/depop/python-flexisettings">
-              flexisettings
-            </a>
-          </h2>
-          <p>
-            <img src="https://circleci.com/gh/depop/python-flexisettings.svg?style=shield&circle-token=ae7b355ec3b18c69d3370898a69932091c43d152" title="Build Status">
-            <a href="https://pypi.python.org/depop/python-flexisettings">
-              <img src="https://badge.fury.io/py/flexisettings.svg" title="Latest PyPI version"></a>
-          </p>
-          <p class="lead">
-            Partly inspired by Django's <code>from django.conf import settings</code> settings object.
-          </p>
-          <p class="lead">
-            The goal is to allow shared libraries to be configured by a settings file <em>in the project which imports them</em> (like how Django libraries can expect the Django <code>settings</code> object to exist).
-          </p>
-          <p class="lead">
-            Tested against Python 2.7 &amp; 3.6, source is fully type-hinted and statically checked by <a href="http://mypy-lang.org/" target="_blank">mypy</a>.
-          </p>
-          <p class="lead">
-            (used by <a href="https://github.com/depop/popget">popget</a> and <a href="https://github.com/depop/celery-message-consumer">celery-message-consumer</a>)
-          </p>
-        </div>
-
-        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <div class="clearfix"></div>
-          <h5>
-            (for <a href="http://depop.com" target="_blank">Depop</a>)
             <code>github.com/depop/django-concurrent-test-helper</code>
           </h5>
           <h2 class="section-heading">
@@ -175,9 +219,7 @@
             </a>
           </h2>
           <p>
-            <a href="https://travis-ci.org/depop/django-concurrent-test-helper">
-              <img src="https://travis-ci.org/depop/django-concurrent-test-helper.svg?branch=master" title="Build Status"></a>
-            <a href="https://pypi.python.org/pypi/django-concurrent-test-helper/">
+            <img src="https://circleci.com/gh/depop/django-concurrent-test-helper.svg?style=shield&circle-token=3e078cd6ae563b403d75e6aa0635569e902fb71a" title="Build Status"><a href="https://pypi.org/project/django-concurrent-test-helper/">
               <img src="https://badge.fury.io/py/django-concurrent-test-helper.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
@@ -188,6 +230,28 @@
           </p>
           <p class="lead">
             Tested against Python 2 &amp; 3 and a wide range of Django versions.
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <div class="clearfix"></div>
+          <h2 class="section-heading">
+            <a href="https://github.com/anentropic/django-conditional-aggregates">
+              django-conditional-aggregates
+            </a>
+          </h2>
+          <p>
+            <a href="https://travis-ci.org/anentropic/django-conditional-aggregates">
+              <img src="https://travis-ci.org/anentropic/django-conditional-aggregates.svg?branch=master" title="Build Status"></a>
+            <a href="https://pypi.org/project/django-conditional-aggregates">
+              <img src="https://badge.fury.io/py/django-conditional-aggregates.svg" title="Latest PyPI version"></a>
+          </p>
+          <p class="lead">
+            Django aggregate functions which operate conditionally (i.e. generate SQL <code>CASE</code> statements) ...useful when combining aggregate functions with a <code>GROUP BY</code> clause. eg <code>ConditionalSum</code>.
+          </p>
+          <p class="lead">
+            For Django 1.5/1.6 only.<br/>
+            (From Django 1.8 onwards this feature is now provided by the Django ORM)
           </p>
         </div>
       </div>
@@ -206,32 +270,32 @@
         <div class="col-lg-5 col-sm-6">
           <div class="clearfix"></div>
           <h2 class="section-heading">
-            <a href="https://github.com/anentropic/factoryboy-gaendb">
-              factoryboy-gaendb
+            <a href="https://github.com/anentropic/django-cas-cache">
+              django-cas-cache
             </a>
           </h2>
           <p>
-            <a href="https://pypi.python.org/pypi/factoryboy-gaendb">
-              <img src="https://badge.fury.io/py/factoryboy-gaendb.svg" title="Latest PyPI version"></a>
+            <a href="https://pypi.org/project/django-cas-cache">
+              <img src="https://badge.fury.io/py/django-cas-cache.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
-            <a href="http://factoryboy.readthedocs.org/en/latest/" target="_blank">Factoryboy</a> base factories and helpers for Google App Engine <a href="https://cloud.google.com/appengine/docs/python/ndb/" target="_blank">ndb</a> models. To help with unit testing projects using App Engine datastore.
+            Django cache backends supporting CAS (compare-and-set) operation. Memcache, Redis and Dummy backends. CAS allows updating a value without risk of race condition bugs.
           </p>
         </div>
 
         <div class="col-lg-5 col-lg-offset-2 col-sm-6">
           <div class="clearfix"></div>
           <h2 class="section-heading">
-            <a href="https://github.com/anentropic/django-cas-cache">
-              django-cas-cache
+            <a href="https://github.com/anentropic/factoryboy-gaendb">
+              factoryboy-gaendb
             </a>
           </h2>
           <p>
-            <a href="https://pypi.python.org/pypi/django-cas-cache">
-              <img src="https://badge.fury.io/py/django-cas-cache.svg" title="Latest PyPI version"></a>
+            <a href="https://pypi.org/project/factoryboy-gaendb">
+              <img src="https://badge.fury.io/py/factoryboy-gaendb.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
-            Django cache backends supporting CAS (compare-and-set) operation. Memcache, Redis and Dummy backends. CAS allows updating a value without risk of race condition bugs.
+            <a href="http://factoryboy.readthedocs.org/en/latest/" target="_blank">Factoryboy</a> base factories and helpers for Google App Engine <a href="https://cloud.google.com/appengine/docs/python/ndb/" target="_blank">ndb</a> models. To help with unit testing projects using App Engine datastore.
           </p>
         </div>
       </div>
@@ -249,28 +313,6 @@
         <div class="col-lg-5 col-sm-6">
           <div class="clearfix"></div>
           <h2 class="section-heading">
-            <a href="https://github.com/anentropic/django-conditional-aggregates">
-              django-conditional-aggregates
-            </a>
-          </h2>
-          <p>
-            <a href="https://travis-ci.org/anentropic/django-conditional-aggregates">
-              <img src="https://travis-ci.org/anentropic/django-conditional-aggregates.svg?branch=master" title="Build Status"></a>
-            <a href="https://pypi.python.org/pypi/django-conditional-aggregates">
-              <img src="https://badge.fury.io/py/django-conditional-aggregates.svg" title="Latest PyPI version"></a>
-          </p>
-          <p class="lead">
-            Django aggregate functions which operate conditionally (i.e. generate SQL <code>CASE</code> statements) ...useful when combining aggregate functions with a <code>GROUP BY</code> clause. eg <code>ConditionalSum</code>.
-          </p>
-          <p class="lead">
-            For Django 1.5/1.6 only.<br/>
-            (From Django 1.8 onwards this feature is now provided by the Django ORM)
-          </p>
-        </div>
-
-        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <div class="clearfix"></div>
-          <h2 class="section-heading">
             <a href="https://github.com/anentropic/django-exclusivebooleanfield">
               django-exclusivebooleanfield
             </a>
@@ -278,11 +320,27 @@
           <p>
             <a href="https://travis-ci.org/anentropic/django-exclusivebooleanfield">
               <img src="https://travis-ci.org/anentropic/django-exclusivebooleanfield.svg?branch=master" title="Build Status"></a>
-            <a href="https://pypi.python.org/pypi/django-exclusivebooleanfield">
+            <a href="https://pypi.org/project/django-exclusivebooleanfield">
               <img src="https://badge.fury.io/py/django-exclusivebooleanfield.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
             Provides an <code>ExclusiveBooleanField</code> which is a boolean (database) field where only one row in the table (or optionally, a subset of rows based on value of other fields) is <code>True</code> and all the other rows are <code>False</code>.
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <div class="clearfix"></div>
+          <h2 class="section-heading">
+            <a href="https://github.com/anentropic/dirtyebay">
+              dirtyebay
+            </a>
+          </h2>
+          <p>
+            <a href="https://pypi.org/project/dirtyebay">
+              <img src="https://badge.fury.io/py/dirtyebay.svg" title="Latest PyPI version"></a>
+          </p>
+          <p class="lead">
+            An eBay API client which respects <code>XSD</code> schema and talks <code>SOAP</code>, but doesn't use <a href="https://fedorahosted.org/suds/" target="_blank">Suds</a>. With a clean and simple interface and low memory usage (unlike Suds+WSDL...).
           </p>
         </div>
       </div>
@@ -305,7 +363,7 @@
             </a>
           </h2>
           <p>
-            <a href="https://pypi.python.org/pypi/django-tempocal">
+            <a href="https://pypi.org/project/django-tempocal">
               <img src="https://badge.fury.io/py/django-tempocal.svg" title="Latest PyPI version"></a>
           </p>
           <p class="lead">
@@ -314,19 +372,6 @@
         </div>
 
         <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <div class="clearfix"></div>
-          <h2 class="section-heading">
-            <a href="https://github.com/anentropic/dirtyebay">
-              dirtyebay
-            </a>
-          </h2>
-          <p>
-            <a href="https://pypi.python.org/pypi/dirtyebay">
-              <img src="https://badge.fury.io/py/dirtyebay.svg" title="Latest PyPI version"></a>
-          </p>
-          <p class="lead">
-            An eBay API client which respects <code>XSD</code> schema and talks <code>SOAP</code>, but doesn't use <a href="https://fedorahosted.org/suds/" target="_blank">Suds</a>. With a clean and simple interface and low memory usage (unlike Suds+WSDL...).
-          </p>
         </div>
       </div>
 
