@@ -184,7 +184,7 @@
             Helpers for executing Django app code concurrently within Django tests.
           </p>
           <p class="lead">
-            If you're using SQLite in your tests then this workaround is not needed. But at <a href="http://depop.com" target="_blank">Depop</a> we had a suite of integration tests running against actual Postgres and Mongo servers and this utility helped us to reproduce several race conditions and confirm when successfully fixed.
+            If you're using SQLite in your tests then this workaround is not needed. But at <a href="http://depop.com" target="_blank">Depop</a> we have a suite of integration tests running against Postgres and Mongo Docker containers, like in the production environment. This utility has helped us to reproduce various race conditions and confirm when successfully fixed.
           </p>
           <p class="lead">
             Tested against Python 2 &amp; 3 and a wide range of Django versions.
