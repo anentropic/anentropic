@@ -1,4 +1,4 @@
-# Notable projects
+# Selected projects
 
 - ### [twenty-questions-bot](https://github.com/anentropic/twenty-questions-bot)
   `python` Langchain chatbot (GPT-3.5) that plays the "20 Questions" game. Gradio app - run locally for now (set your OpenAI API key first).
