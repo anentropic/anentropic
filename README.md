@@ -3,7 +3,7 @@
 - ### [twenty-questions-bot](https://github.com/anentropic/twenty-questions-bot)
   `python` Langchain chatbot (GPT-3.5) that plays the "20 Questions" game. Gradio app - run locally for now (set your OpenAI API key first).
   
-  Inspired by this tweet https://twitter.com/goodside/status/1643123149406367745 which notes how ChatGPT is _unable_ to play 20 Questions due to lack of private memory.
+  Inspired by [this tweet](https://twitter.com/goodside/status/1643123149406367745) which notes how ChatGPT is _unable_ to play 20 Questions due to lack of private memory.
   
   Adding the memory was easy, the harder part was getting it to validate that the player was asking a yes/no question, and for the bot to reply with only yes/no/sometimes/I don't know. Plenty of rough edges to polish, but have been able to successfully play some games of 20 Questions against the bot!
  
